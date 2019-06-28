@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		9EA7D05F22C4AA0A003A49A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D05E22C4AA0A003A49A4 /* AppDelegate.swift */; };
 		9EA7D06122C4AA0A003A49A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D06022C4AA0A003A49A4 /* ViewController.swift */; };
-		9EA7D06422C4AA0A003A49A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7D06222C4AA0A003A49A4 /* Main.storyboard */; };
 		9EA7D06622C4AA0B003A49A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7D06522C4AA0B003A49A4 /* Assets.xcassets */; };
 		9EA7D06922C4AA0B003A49A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7D06722C4AA0B003A49A4 /* LaunchScreen.storyboard */; };
+		9EA7D07122C4AA2B003A49A4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D07022C4AA2B003A49A4 /* NotificationController.swift */; };
+		9EA7D07422C4E757003A49A4 /* viewNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D07322C4E757003A49A4 /* viewNotificationController.swift */; };
+		9EA7D07822C4E7C0003A49A4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D07722C4E7C0003A49A4 /* Extension.swift */; };
+		9EA7D07B22C4E99B003A49A4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D07A22C4E99B003A49A4 /* Model.swift */; };
+		9EA7D07D22C4FA93003A49A4 /* notificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7D07C22C4FA93003A49A4 /* notificationCell.swift */; };
+		9EA7D08122C5033F003A49A4 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA7D08022C5033F003A49A4 /* iPhone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9EA7D05B22C4AA0A003A49A4 /* notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA7D05E22C4AA0A003A49A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EA7D06022C4AA0A003A49A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9EA7D06322C4AA0A003A49A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EA7D06522C4AA0B003A49A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA7D06822C4AA0B003A49A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EA7D06A22C4AA0B003A49A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA7D07022C4AA2B003A49A4 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9EA7D07322C4E757003A49A4 /* viewNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewNotificationController.swift; sourceTree = "<group>"; };
+		9EA7D07722C4E7C0003A49A4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9EA7D07A22C4E99B003A49A4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9EA7D07C22C4FA93003A49A4 /* notificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCell.swift; sourceTree = "<group>"; };
+		9EA7D08022C5033F003A49A4 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,51 @@
 		9EA7D05D22C4AA0A003A49A4 /* notification */ = {
 			isa = PBXGroup;
 			children = (
+				9EA7D07922C4E82B003A49A4 /* Model */,
+				9EA7D07622C4E7AB003A49A4 /* Extension */,
+				9EA7D07522C4E787003A49A4 /* Controller */,
+				9EA7D07222C4B0D6003A49A4 /* Notification */,
 				9EA7D05E22C4AA0A003A49A4 /* AppDelegate.swift */,
-				9EA7D06022C4AA0A003A49A4 /* ViewController.swift */,
-				9EA7D06222C4AA0A003A49A4 /* Main.storyboard */,
+				9EA7D08022C5033F003A49A4 /* iPhone.png */,
 				9EA7D06522C4AA0B003A49A4 /* Assets.xcassets */,
 				9EA7D06722C4AA0B003A49A4 /* LaunchScreen.storyboard */,
 				9EA7D06A22C4AA0B003A49A4 /* Info.plist */,
 			);
 			path = notification;
+			sourceTree = "<group>";
+		};
+		9EA7D07222C4B0D6003A49A4 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7D07022C4AA2B003A49A4 /* NotificationController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		9EA7D07522C4E787003A49A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7D07322C4E757003A49A4 /* viewNotificationController.swift */,
+				9EA7D07C22C4FA93003A49A4 /* notificationCell.swift */,
+				9EA7D06022C4AA0A003A49A4 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9EA7D07622C4E7AB003A49A4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7D07722C4E7C0003A49A4 /* Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		9EA7D07922C4E82B003A49A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7D07A22C4E99B003A49A4 /* Model.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EA7D06922C4AA0B003A49A4 /* LaunchScreen.storyboard in Resources */,
+				9EA7D08122C5033F003A49A4 /* iPhone.png in Resources */,
 				9EA7D06622C4AA0B003A49A4 /* Assets.xcassets in Resources */,
-				9EA7D06422C4AA0A003A49A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA7D07822C4E7C0003A49A4 /* Extension.swift in Sources */,
+				9EA7D07122C4AA2B003A49A4 /* NotificationController.swift in Sources */,
 				9EA7D06122C4AA0A003A49A4 /* ViewController.swift in Sources */,
+				9EA7D07B22C4E99B003A49A4 /* Model.swift in Sources */,
+				9EA7D07422C4E757003A49A4 /* viewNotificationController.swift in Sources */,
+				9EA7D07D22C4FA93003A49A4 /* notificationCell.swift in Sources */,
 				9EA7D05F22C4AA0A003A49A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +195,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9EA7D06222C4AA0A003A49A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EA7D06322C4AA0A003A49A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9EA7D06722C4AA0B003A49A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
